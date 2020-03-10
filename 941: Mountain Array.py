@@ -43,7 +43,7 @@ Note:
 
 '''
 class Solution:
-    def validMountainArray(self, A: List[int]) -> bool:
+    def validMountainArray(self, A) -> bool:
         i=0
         if len(A)<3:
             return False
